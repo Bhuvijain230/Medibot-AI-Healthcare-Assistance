@@ -1,0 +1,10 @@
+audio_filepath,image_filepath,Speech to Text,Doctor's Response,output 2,timestamp
+.gradio\flagged\audio_filepath\19de833241873cd3092c\audio.wav,.gradio\flagged\image_filepath\55aafb058ed2802187d4\acne.jpg," Hi, I am having acne on my face. Please provide the solution.","**Underlying Condition:** Acne
+
+The person in the image appears to have acne on their face. This could be due to various factors, including hormonal imbalances, genetics, or poor skincare routine.
+
+**Remedies:**
+
+* Maintain a healthy skincare routine with non-comedogenic products
+* Consider incorporating topical treatments like benzoyl peroxide or salicylic acid
+* If the issue persists, consult a dermatologist for further guidance",,2025-03-25 23:34:59.868460
