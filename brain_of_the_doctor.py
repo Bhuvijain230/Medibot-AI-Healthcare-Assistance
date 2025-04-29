@@ -17,7 +17,7 @@ def encode_image(image_path):
 # Step 3: Setup Groq Multimodal LLM
 from groq import Groq
 query = "What's wrong with me? and provide the solution"
-model = "llama-3.2-90b-vision-preview"
+model = "meta-llama/llama-4-scout-17b-16e-instruct"
 def analyze_image_with_query(query,model,encoded_image):
     client = Groq(api_key=GROQ_API_KEY)
 

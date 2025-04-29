@@ -2,9 +2,14 @@ import imageio_ffmpeg as ffmpeg
 print(ffmpeg.get_ffmpeg_version())
 import os
 from pydub import AudioSegment
+from playsound import playsound
+from pydub.playback import play
+
+
 
 # Manually specify the FFmpeg path
-os.environ["PATH"] += os.pathsep + r"D:\Medibot Project\ffmpeg-2025-02-20-git-bc1a3bfd2c-full_build\bin"
+os.environ["PATH"] += os.pathsep + r"C:\Users\sv\Downloads\ffmpeg-7.1.1-full_build\ffmpeg-7.1.1-full_build\bin"
+
 
 # Verify FFmpeg is found
 print(AudioSegment.ffmpeg)
@@ -48,7 +53,7 @@ def record_audio(file_path, timeout=20, phrase_time_limit=None):
     except Exception as e:
         logging.error(f"An error occurred: {e}")
 
-audio_filepath="patient_voice_test_for_patient.mp3"
+audio_filepath=r"D:\Medibot Project\patient_voice_test_for_patient.mp3"
 record_audio(file_path=audio_filepath)
 
 #step2 : Setup speech to text-STT-model for transcription
